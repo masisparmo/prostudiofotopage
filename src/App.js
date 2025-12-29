@@ -5,6 +5,8 @@ import {
     Clock, ShieldCheck, Users, TrendingUp, Gift,
     Mail, MessageCircle, ShieldAlert, X
 } from 'lucide-react';
+import './index.css';
+
 
 // --- KOMPONEN LOGO CUSTOM ---
 const Logo = ({ className = "w-10 h-10" }) => (
