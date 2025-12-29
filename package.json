@@ -2,8 +2,7 @@
   "name": "prostudiofotopage",
   "version": "1.0.0",
   "description": "Landing Page PRO STUDIO FOTO",
-  "homepage": "https://masisparmo.github.io/prostudiofotopage",
-  "private": true,
+  "homepage": "/prostudiofotopage/",  "private": true,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
