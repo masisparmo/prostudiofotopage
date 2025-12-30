@@ -1,2 +1,252 @@
-# prostudiofotopage
-Landing Page PRO STUDIO FOTO
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pro Studio Foto - Foto Produk Profesional Otomatis</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      min-height: 100vh;
+    }
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 48px;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #5c4dff 0%, #7c68ff 100%);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 24px;
+    }
+    
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .theme-toggle {
+      width: 40px;
+      height: 40px;
+      border: none;
+      background: none;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 20px;
+    }
+    
+    .btn-primary {
+      background: linear-gradient(135deg, #5c4dff 0%, #7c68ff 100%);
+      color: white;
+      border: none;
+      padding: 12px 28px;
+      border-radius: 24px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(92, 77, 255, 0.3);
+    }
+    
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 48px;
+      text-align: center;
+    }
+    
+    .badge {
+      display: inline-block;
+      background: #f0f0ff;
+      color: #5c4dff;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+    
+    .badge-icon {
+      margin-right: 8px;
+    }
+    
+    h1 {
+      font-size: 56px;
+      line-height: 1.2;
+      margin-bottom: 24px;
+      color: #1a1a1a;
+    }
+    
+    .highlight {
+      background: linear-gradient(135deg, #5c4dff 0%, #7c68ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .subtitle {
+      font-size: 18px;
+      color: #666;
+      max-width: 600px;
+      line-height: 1.6;
+      margin-bottom: 48px;
+    }
+    
+    .cta-buttons {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      margin-bottom: 48px;
+      flex-wrap: wrap;
+    }
+    
+    .btn-secondary {
+      background: white;
+      color: #1a1a1a;
+      border: 2px solid #e0e0e0;
+      padding: 12px 28px;
+      border-radius: 24px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-secondary:hover {
+      border-color: #5c4dff;
+      color: #5c4dff;
+    }
+    
+    .social-proof {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .avatars {
+      display: flex;
+      margin-right: 12px;
+    }
+    
+    .avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+      margin-left: -8px;
+      border: 2px solid white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+    }
+    
+    .avatar:nth-child(2) {
+      background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    }
+    
+    .avatar:nth-child(3) {
+      background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+    }
+    
+    .avatar:nth-child(4) {
+      background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    }
+    
+    .proof-text {
+      color: #666;
+      font-size: 14px;
+    }
+    
+    .proof-text strong {
+      color: #1a1a1a;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <div class="logo-icon">⚡</div>
+      <span>Pro Studio Foto</span>
+    </div>
+    <div class="header-actions">
+      <button class="theme-toggle">🌙</button>
+      <button class="btn-primary">Beli Sekarang</button>
+    </div>
+  </header>
+  
+  <section class="hero">
+    <div class="badge">
+      <span class="badge-icon">🔥</span>
+      <span>REVOLUSI FOTO PRODUK UMKM</span>
+    </div>
+    
+    <h1>
+      Stop Buang Waktu & Uang.
+      <br>
+      <span class="highlight">Foto Produk Profesional Kini Otomatis.</span>
+    </h1>
+    
+    <p class="subtitle">
+      Ubah foto HP biasa menjadi aset visual kelas studio, resize otomatis ke semua sosmed, dan buat desain promosi dalam hitungan detik dengan AI.
+    </p>
+    
+    <div class="cta-buttons">
+      <button class="btn-primary" style="padding: 14px 32px; font-size: 16px;">
+        Ambil Diskon 50% Sekarang →
+      </button>
+      <button class="btn-secondary">
+        Pelajari Dulu
+      </button>
+    </div>
+    
+    <div class="social-proof">
+      <div class="avatars">
+        <div class="avatar">👨</div>
+        <div class="avatar">👩</div>
+        <div class="avatar">👨</div>
+        <div class="avatar">👩</div>
+      </div>
+      <div class="proof-text">
+        Insya Allah akan dipercaya oleh <strong>1000+</strong> UMKM
+      </div>
+    </div>
+  </section>
+</body>
+</html>
