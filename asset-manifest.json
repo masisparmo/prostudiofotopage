@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/prostudiofotopage/static/css/main.ad6eeb9a.css",
-    "main.js": "/prostudiofotopage/static/js/main.de51b7d1.js",
+    "main.css": "/prostudiofotopage/static/css/main.2fa80886.css",
+    "main.js": "/prostudiofotopage/static/js/main.ab50848c.js",
     "index.html": "/prostudiofotopage/index.html",
-    "main.ad6eeb9a.css.map": "/prostudiofotopage/static/css/main.ad6eeb9a.css.map",
-    "main.de51b7d1.js.map": "/prostudiofotopage/static/js/main.de51b7d1.js.map"
+    "main.2fa80886.css.map": "/prostudiofotopage/static/css/main.2fa80886.css.map",
+    "main.ab50848c.js.map": "/prostudiofotopage/static/js/main.ab50848c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad6eeb9a.css",
-    "static/js/main.de51b7d1.js"
+    "static/css/main.2fa80886.css",
+    "static/js/main.ab50848c.js"
   ]
 }
